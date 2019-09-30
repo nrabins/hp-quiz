@@ -1,4 +1,4 @@
-# hp-quiz-2
+# HP Quiz
 
 ## Project setup
 ```
