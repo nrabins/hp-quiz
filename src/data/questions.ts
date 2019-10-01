@@ -46,7 +46,7 @@ const questions = [
     new Answer(`Slytherin!`, [new Weight(House.Slytherin)]),
     new Answer(`...Hufflepuff.`, [new Weight(House.Hufflepuff)]),
   ]),
-  new Question(`Which house would you <b>least</b> want to be in?`, [
+  new Question(`Which house would you <strong>least</strong> want to be in?`, [
     new Answer(`Gryffindor.`, [new Weight(House.Slytherin, .6), new Weight(House.Ravenclaw, .4)]),
     new Answer(`Ravenclaw.`, [new Weight(House.Gryffindor, .5), new Weight(House.Hufflepuff, .5)]),
     new Answer(`Slytherin.`, [new Weight(House.Gryffindor, .9), new Weight(House.Hufflepuff, .1)]),
