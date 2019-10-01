@@ -1,7 +1,7 @@
 # HP Quiz
 
 ## About
-This quiz app will be similar to other Harry Potter placement quizzes. Feel free to fork to make use of the question database.
+This quiz app (currently under construction) will be similar to other Harry Potter placement quizzes with absolutely no betrayals or breeches of trust. Feel free to fork to make use of the question database.
 
 ## Contributing
 To contribute questions, add to the `questions` array in [this file](https://github.com/nrabins/hp-quiz/blob/master/src/data/questions.ts). Questions have two components: the **prompt** and the **answers**.
