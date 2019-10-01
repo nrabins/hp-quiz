@@ -6,6 +6,5 @@ export interface IQuestion {
 }
 
 export default class Question implements IQuestion {
-  constructor(public prompt: string, public answers: Answer[]) {
-  }
+  constructor(public prompt: string, public answers: Answer[]) {}
 }

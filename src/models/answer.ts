@@ -6,7 +6,5 @@ export interface IAnswer {
 }
 
 export default class Answer implements IAnswer {
-  constructor(public text: string, public weighting: Weight[]) {
-
-  }
+  constructor(public text: string, public weighting: Weight[]) {}
 }

@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h2>{{ question.prompt }}</h2>
+    <div class="question" v-html="question.prompt"/>
     <ul>
       <li v-for="(answer, index) in question.answers" :key="index">{{ answer.text }}</li>
     </ul>
