@@ -5,8 +5,7 @@ To contribute questions, add to the `questions` array in [this file](https://git
 
 The first parameter in the `Question` constructor is a string prompt.
 
-The second parameter is an array of `Answer` objects. The `Answer` constructor takes the text of the answer as a string and a list of Weights. The `Weight` constructor takes a House (Gryffindor, Slytherin, Hufflepuff, or Ravenclaw) and a weight. The weights are relative to eachother within the question.
-
+The second parameter is an array of `Answer` objects. The `Answer` constructor takes the text of the answer as a string and a list of Weights. The `Weight` constructor takes a House (`House.Gryffindor`, `House.Slytherin`, `House.Hufflepuff`, or `House.Ravenclaw`) and a numerical weight. The weights are relative to each other within the question (I've used a scale where they total to 1 but that's not strictly necessary as they will be normalized in their usage). A `Weight` can also be created with just a House if there is only one House applicable to the answer.
 
 ## Project setup
 ```
