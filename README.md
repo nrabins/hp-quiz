@@ -4,7 +4,9 @@
 This quiz app (currently under construction) will be similar to other Harry Potter placement quizzes with absolutely no betrayals or breeches of trust. Feel free to fork to make use of the question database.
 
 ## Contributing
-To contribute questions, add to the `questions` array in [this file](https://github.com/nrabins/hp-quiz/blob/master/src/data/questions.ts). Questions have two components: the **prompt** and the **answers**.
+To contribute questions, add to the end of the `questions` array in [this file](https://github.com/nrabins/hp-quiz/blob/master/src/data/questions.ts). Questions have two components: the **prompt** and the **answers**.
+
+To make this easier, I've made a helper app: https://nrabins.github.io/hp-quiz-question-helper/
 
 The first parameter in the `Question` constructor is a string prompt.
 
