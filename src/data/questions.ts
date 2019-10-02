@@ -52,7 +52,7 @@ const questions = [
     new Answer(`Slytherin.`, [new Weight(House.Gryffindor, .9), new Weight(House.Hufflepuff, .1)]),
     new Answer(`Hufflepuff.`, [new Weight(House.Gryffindor, .25), new Weight(House.Ravenclaw, .25), new Weight(House.Slytherin, .25), new Weight(House.Hufflepuff, .25)]),
   ]),
-    new Question(`What is your pet of choice?`, [
+  new Question(`What is your pet of choice?`, [
     new Answer(`Cat`, [new Weight(House.Ravenclaw)]),
     new Answer(`Dog`, [new Weight(House.Slytherin)]),
     new Answer(`Owl`, [new Weight(House.Gryffindor)]),
