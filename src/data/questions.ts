@@ -60,8 +60,8 @@ const questions = [
   ]),
   new Question(`Professor Lupin calls on you in DADA Class, which spell are you most likely to demonstrate?`, [
     new Answer(`Locomotor Mortis (Tripping)`, [new Weight(House.Slytherin)]),
-    new Answer(`Expelliarmus(Disarming)`, [new Weight(House.Gryffindor)]),
-    new Answer(`Petrifcus Totalus(Freezing)`, [new Weight(House.Ravenclaw)]),
-    new Answer(`Rictusempra(Tickling)`, [new Weight(House.Hufflepuff)]),
+    new Answer(`Expelliarmus (Disarming)`, [new Weight(House.Gryffindor)]),
+    new Answer(`Petrifcus Totalus (Freezing)`, [new Weight(House.Ravenclaw)]),
+    new Answer(`Rictusempra (Tickling)`, [new Weight(House.Hufflepuff)]),
   ]),
 ];
