@@ -64,4 +64,10 @@ const questions = [
     new Answer(`Petrifcus Totalus (Freezing)`, [new Weight(House.Ravenclaw)]),
     new Answer(`Rictusempra (Tickling)`, [new Weight(House.Hufflepuff)]),
   ]),
+  new Question(`How closely do you follow recipes in Potions class?`, [
+    new Answer(`You follow the recipe as written.`, [new Weight(House.Slytherin, 0.8), new Weight(House.Ravenclaw, 0.2)]),
+    new Answer(`You eyeball most things.`, [new Weight(House.Gryffindor, 0.7), new Weight(House.Hufflepuff, 0.3)]),
+    new Answer(`You follow the recipe exactly, making sure to double check all measurements.`, [new Weight(House.Ravenclaw, 0.8), new Weight(House.Slytherin, 0.2)]),
+    new Answer(`You mostly follow the recipe, but sometimes add your own twist.`, [new Weight(House.Gryffindor, 0.3), new Weight(House.Hufflepuff, 0.7)]),
+  ]),
 ];
